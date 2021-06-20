@@ -1,7 +1,6 @@
 <%
 	local fs = require "nixio.fs"
 	local util = require "luci.util"
-	local stat = require "luci.tools.status"
 	local ver = require "luci.version"
 
 	local has_ipv6 = fs.access("/proc/net/ipv6_route")
